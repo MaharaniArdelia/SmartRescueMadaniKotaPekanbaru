@@ -1,0 +1,63 @@
+package com.example.smartrescuemadanikotapekanbaru
+
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.view.View
+
+class Edukasi1 : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_edukasi1)
+    }
+
+    fun back(view: View?) {
+        val i = Intent(applicationContext, Edukasi1::class.java)
+        startActivity(i)
+    }
+
+    fun home(view: View?) {
+        val i = Intent(applicationContext, Home::class.java)
+        startActivity(i)
+    }
+
+    fun edukasi(view: View?) {
+        val i = Intent(applicationContext, Edukasi1::class.java)
+        startActivity(i)
+    }
+
+    fun lapor(view: View?) {
+        val i = Intent(applicationContext, Lapor::class.java)
+        startActivity(i)
+    }
+
+    fun histrory(view: View?) {
+        val i = Intent(applicationContext, Riwayat::class.java)
+        startActivity(i)
+    }
+
+    fun profile(view: View?) {
+        val i = Intent(applicationContext, Login::class.java)
+        startActivity(i)
+    }
+
+    fun informasi1(view: View?) {
+        val i = Intent(applicationContext, Edukasi2::class.java)
+        startActivity(i)
+    }
+
+    fun informasi2(view: View?) {
+        val i = Intent(applicationContext, Edukasi3::class.java)
+        startActivity(i)
+    }
+
+    fun informasi3(view: View?) {
+        val i = Intent(applicationContext, Edukasi4::class.java)
+        startActivity(i)
+    }
+
+    fun informasi4(view: View?) {
+        val i = Intent(applicationContext, Edukasi5::class.java)
+        startActivity(i)
+    }
+}

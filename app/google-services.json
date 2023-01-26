@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "885651976736",
+    "project_id": "mobile-69ec0",
+    "storage_bucket": "mobile-69ec0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885651976736:android:28e27b2866b2b9c1110245",
+        "android_client_info": {
+          "package_name": "com.example.smartrescuemadanikotapekanbaru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885651976736-pu2bcc91vk6q2hmag8pjfhk6p26bd7ou.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartrescuemadanikotapekanbaru",
+            "certificate_hash": "02a33412790d96ba20af7abd1f622628f849e25e"
+          }
+        },
+        {
+          "client_id": "885651976736-40v89gjskjsnqgbnoame9vkn2u5dhc9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOs4Bdjr7mt9-7NdhpHR4-fh5jqgHe_nk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885651976736-40v89gjskjsnqgbnoame9vkn2u5dhc9e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

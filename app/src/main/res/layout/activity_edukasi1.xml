@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Edukasi1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="417dp"
+                    android:layout_height="93dp"
+                    android:background="#E97777"
+                    tools:layout_editor_absoluteX="-6dp" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="185dp"
+                    android:layout_marginTop="21dp"
+                    app:srcCompat="@drawable/riwayat1"
+                    tools:layout_editor_absoluteX="204dp"
+                    tools:layout_editor_absoluteY="0dp" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="248dp"
+                    android:layout_marginTop="24dp"
+                    android:text="Smart Rescue Madani Kota Pekanbaru "
+                    android:textColor="#FFFFFF"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="276dp"
+                    tools:layout_editor_absoluteY="16dp" />
+
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/edukasi1" />
+
+            <SearchView
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="#ECE5D0" >
+
+            </SearchView>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:text="Informasi"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp">
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="160dp"
+                android:layout_height="240dp"
+                android:background="#ECE5D0"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:onClick="informasi1"
+                android:id="@+id/imageButton5"
+                android:layout_width="150dp"
+                android:layout_height="214dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/edukasi2"
+                android:background="#ECE5D0" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp">
+
+                <View
+                    android:id="@+id/view6"
+                    android:layout_width="160dp"
+                    android:layout_height="240dp"
+                    android:background="#ECE5D0"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:onClick="informasi2"
+                    android:id="@+id/imageButton2"
+                    android:layout_width="150dp"
+                    android:layout_height="214dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/edukasi3"
+                    android:background="#ECE5D0" />
+
+            </FrameLayout>
+
+        </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp">
+
+                <View
+                    android:id="@+id/view5"
+                    android:layout_width="160dp"
+                    android:layout_height="240dp"
+                    android:background="#ECE5D0"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:onClick="informasi3"
+                    android:id="@+id/imageButton1"
+                    android:layout_width="150dp"
+                    android:layout_height="214dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/edukasi4"
+                    android:background="#ECE5D0" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp">
+
+                    <View
+                        android:id="@+id/view10"
+                        android:layout_width="160dp"
+                        android:layout_height="240dp"
+                        android:background="#ECE5D0"
+                        android:layout_weight="1" />
+
+                    <ImageButton
+                        android:onClick="informasi4"
+                        android:id="@+id/imageButton3"
+                        android:layout_width="150dp"
+                        android:layout_height="214dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/edukasi6"
+                        android:background="#ECE5D0" />
+
+                </FrameLayout>
+
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:background="#FCDDB0">
+
+                <ImageButton
+                    android:onClick="home"
+                    android:id="@+id/imageButton4"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="#FCDDB0"
+                    app:srcCompat="@drawable/ic_baseline_home_24" />
+
+                <ImageButton
+                    android:onClick="edukasi"
+                    android:id="@+id/imageView10"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="80dp"
+                    android:background="#FCDDB0"
+                    app:srcCompat="@drawable/ic_baseline_menu_book_24" />
+
+                <ImageButton
+                    android:onClick="lapor"
+                    android:id="@+id/imageView13"
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="180dp"
+                    app:srcCompat="@drawable/bulat3"
+                    android:background="#FCDDB0" />
+
+                <TextView
+                    android:onClick="lapor"
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="192dp"
+                    android:text="Lapor" />
+
+                <ImageButton
+                    android:onClick="histrory"
+                    android:id="@+id/imageView14"
+                    android:layout_width="100dp"
+                    android:layout_marginLeft="240dp"
+                    android:layout_height="50dp"
+                    android:background="#FCDDB0"
+                    app:srcCompat="@drawable/ic_baseline_history_24" />
+
+                <ImageButton
+                    android:onClick="profile"
+                    android:id="@+id/imageView15"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="310dp"
+                    android:background="#FCDDB0"
+                    app:srcCompat="@drawable/ic_baseline_person_24" />
+
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

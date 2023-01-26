@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Edukasi4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="417dp"
+                android:layout_height="93dp"
+                android:background="#E97777"
+                tools:layout_editor_absoluteX="-6dp" />
+
+            <ImageButton
+                android:onClick="back"
+                android:id="@+id/imageButton"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="-20dp"
+                app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+                android:background="#E97777"
+                android:layout_marginTop="5dp"/>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="21dp"
+                app:srcCompat="@drawable/riwayat1"
+                tools:layout_editor_absoluteX="204dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="248dp"
+                android:layout_marginTop="24dp"
+                android:text="Smart Rescue Madani Kota Pekanbaru "
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="276dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="74dp"
+            app:srcCompat="@drawable/edukasi8" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="103dp"
+            android:background="#FCDDB0">
+
+            <ImageButton
+                android:onClick="home"
+                android:id="@+id/imageButton4"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="#FCDDB0"
+                app:srcCompat="@drawable/ic_baseline_home_24" />
+
+            <ImageButton
+                android:onClick="edukasi"
+                android:id="@+id/imageView10"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="80dp"
+                android:background="#FCDDB0"
+                app:srcCompat="@drawable/ic_baseline_menu_book_24" />
+
+            <ImageButton
+                android:onClick="lapor"
+                android:id="@+id/imageView13"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="180dp"
+                app:srcCompat="@drawable/bulat3"
+                android:background="#FCDDB0" />
+
+            <TextView
+                android:onClick="lapor"
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="192dp"
+                android:text="Lapor" />
+
+            <ImageButton
+                android:onClick="histrory"
+                android:id="@+id/imageView14"
+                android:layout_width="100dp"
+                android:layout_marginLeft="240dp"
+                android:layout_height="50dp"
+                android:background="#FCDDB0"
+                app:srcCompat="@drawable/ic_baseline_history_24" />
+
+            <ImageButton
+                android:onClick="profile"
+                android:id="@+id/imageView15"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="310dp"
+                android:background="#FCDDB0"
+                app:srcCompat="@drawable/ic_baseline_person_24" />
+
+        </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

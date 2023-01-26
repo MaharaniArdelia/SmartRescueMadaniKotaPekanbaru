@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SmartRescueMadaniKotaPekanbaru</string>
+    <string-array name="jenispelaporan">
+        <item>kunci masuk got</item>
+        <item>kucing dipohon</item>
+        <item>kebakaran</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
